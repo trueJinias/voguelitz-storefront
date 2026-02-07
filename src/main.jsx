@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import './i18n'; // Import i18n configuration
 
+console.log('VogueLITZ: React App Initializing...');
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

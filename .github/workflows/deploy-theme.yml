@@ -1,0 +1,43 @@
+name: Deploy Shopify Theme
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Prepare Theme Artifact
+        run: |
+          # The build outputs to shopify_theme/assets
+          # We want the content of shopify_theme to be the root of the new branch
+          mkdir theme_dist
+          cp -r shopify_theme/* theme_dist/
+
+      - name: Deploy to theme-release branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./theme_dist
+          publish_branch: theme-release
+          commit_message: "Deploy theme updates: ${{ github.sha }}"
