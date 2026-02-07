@@ -1,0 +1,28 @@
+<div class="page-width page-width--narrow text-center">
+  <h1 class="main-page-title page-title h0">
+    {{ page.title | escape }}
+  </h1>
+  <div class="rte">
+    {{ page.content }}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main_page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.main_page.settings.header.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_page_title",
+      "default": true,
+      "label": "Show Page Title"
+    }
+  ]
+}
+{% endschema %}
