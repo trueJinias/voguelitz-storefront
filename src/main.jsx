@@ -7,6 +7,7 @@ import './i18n';
 // Expose React/ReactDOM globally to fix "React is not defined" errors
 window.React = React;
 window.ReactDOM = ReactDOM;
+console.log("VogueLITZ React App: Loaded v1.1 (MCM Rebrand)");
 
 // Simple Error Boundary
 class ErrorBoundary extends React.Component {
