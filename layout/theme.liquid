@@ -24,8 +24,8 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     
     <!-- React App Assets -->
-    <script type="module" crossorigin src="{{ 'main.js' | asset_url }}"></script>
-    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    <script type="module" crossorigin src="{{ 'main.js' | asset_url }}?v={{ "now" | date: "%N" }}"></script>
+    <link rel="stylesheet" href="{{ 'style.css' | asset_url }}?v={{ "now" | date: "%N" }}">
   </head>
 
   <body class="gradient">
