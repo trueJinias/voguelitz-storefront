@@ -36,24 +36,15 @@ class ErrorBoundary extends React.Component {
   }
 }
 
-console.log('VogueLITZ: React App Initializing...');
 const rootElement = document.getElementById('root');
 
-if (!rootElement) {
-  console.error('FATAL: #root element not found!');
-} else {
-  try {
-    const root = ReactDOM.createRoot(rootElement);
-    root.render(
-      <React.StrictMode>
-        <ErrorBoundary>
-          <App />
-        </ErrorBoundary>
-      </React.StrictMode>
-    );
-    console.log('VogueLITZ: React App Render Triggered');
-  } catch (e) {
-    console.error('FATAL: React Render Failed', e);
-    document.body.innerHTML += `<div style="color:red; padding:20px;"><h1>React Render Crash</h1><pre>${e.toString()}</pre></div>`;
-  }
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(
+    <React.StrictMode>
+      <ErrorBoundary>
+        <App />
+      </ErrorBoundary>
+    </React.StrictMode>
+  );
 }
