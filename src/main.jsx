@@ -4,6 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import './i18n';
 
+// Expose React/ReactDOM globally to fix "React is not defined" errors
+window.React = React;
+window.ReactDOM = ReactDOM;
+
 // Simple Error Boundary
 class ErrorBoundary extends React.Component {
   constructor(props) {
