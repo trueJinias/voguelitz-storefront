@@ -131,7 +131,7 @@ export const Home = () => {
                 </section>
 
                 {/* Feature/Shipping Info Section */}
-                <section className="py-24 bg-stone-900/50">
+                <section className="py-24 bg-black">
                     <div className="container mx-auto px-6">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                             <div className="p-6">
