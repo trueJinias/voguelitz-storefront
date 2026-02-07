@@ -25,19 +25,19 @@
 
 
 :root {
-  /* Mapped to Mid-Century Modern Palette */
-  --bg-primary: #F9F7F2;
-  /* Warm off-white/cream instead of stark white */
-  --text-primary: #3E2723;
-  /* Dark Walnut for softer contrast than black */
-  --text-secondary: #5D4037;
-  /* Lighter wood tone */
-  --accent-gold: #8D5524;
-  /* Teak/Wood tone replaces gold */
+  /* Enforce Dark Mid-Century Modern Palette as Default */
+  --bg-primary: #2C241B;
+  /* Very dark wood background */
+  --text-primary: #F5F5DC;
+  /* Cream-colored text */
+  --text-secondary: #BCAAA4;
+  /* Muted warm grey text */
+  --accent-gold: #DAA520;
+  /* Mustard/Gold accent */
 
   /* Additional Contextual Colors */
-  --bg-secondary: #EBE5CE;
-  /* Warm Stone for sections */
+  --bg-secondary: #3E2723;
+  /* Darker Walnut for sections */
 
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
@@ -49,17 +49,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: #2C241B;
-    /* Very dark wood background */
-    --text-primary: #F5F5DC;
-    /* Cream text */
-    --text-secondary: #BCAAA4;
-    --accent-gold: #DAA520;
-    /* Mustard pop on dark */
-  }
-}
+/* 
+  Removed media query since we are enforcing 'Dark Mode' aesthetic 
+  as the brand identity globally.
+*/
 
 body,
 #root {
