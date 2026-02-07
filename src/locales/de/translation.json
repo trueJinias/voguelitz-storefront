@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "Startseite",
+        "shop": "Shop",
+        "collections": "Kollektionen",
+        "about": "Über uns"
+    },
+    "hero": {
+        "est": "Gegr. 2026",
+        "title_line1": "ELEVATE YOUR",
+        "title_line2": "LIVING SPACE",
+        "subtitle": "Kuratierte Kollektion hochwertiger Möbel für den modernen Kenner. Direkt von Handwerkern zu Ihnen.",
+        "cta": "Kollektion erkunden"
+    },
+    "product": {
+        "view_details": "Details ansehen",
+        "delivery_time": "Lieferung: 2-4 Wochen",
+        "add_to_cart": "In den Warenkorb",
+        "made_to_order": "Auftragsfertigung",
+        "made_to_order_desc": "Dieser Artikel wird auf Bestellung gefertigt/beschafft.",
+        "standard_delivery": "Standardlieferung: 2-4 Wochen",
+        "specs": "Produktspezifikationen",
+        "shipping_returns": "Versand & Rückgabe",
+        "global_shipping": "Weltweiter Versand",
+        "global_shipping_desc": "Verfolgter Versand via EMS/DHL/FedEx.",
+        "quality_guarantee": "Qualitätsgarantie",
+        "quality_guarantee_desc": "Doppelte Inspektion vor Versand."
+    },
+    "footer": {
+        "description": "Luxusmöbel und Dekor für das moderne Zuhause.",
+        "shop": "Shop",
+        "support": "Support",
+        "important": "Wichtige Info",
+        "shipping_delivery": "Versand & Lieferung",
+        "shipping_note": "※ Wir versenden direkt aus Übersee. Bitte rechnen Sie mit 2-4 Wochen Lieferzeit.",
+        "rights_reserved": "Alle Rechte vorbehalten.",
+        "designed_with": "Designed with React Bits"
+    }
+}

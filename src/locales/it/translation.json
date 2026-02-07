@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "Home",
+        "shop": "Negozio",
+        "collections": "Collezioni",
+        "about": "Chi siamo"
+    },
+    "hero": {
+        "est": "Est. 2026",
+        "title_line1": "ELEVATE YOUR",
+        "title_line2": "LIVING SPACE",
+        "subtitle": "Collezione curata di mobili di alta gamma per l'intenditore moderno. Dagli artigiani direttamente a casa tua.",
+        "cta": "Esplora la collezione"
+    },
+    "product": {
+        "view_details": "Visualizza dettagli",
+        "delivery_time": "Consegna: 2-4 settimane",
+        "add_to_cart": "Aggiungi al carrello",
+        "made_to_order": "Su ordinazione",
+        "made_to_order_desc": "Questo articolo è realizzato/procurato su ordinazione.",
+        "standard_delivery": "Consegna standard: 2-4 settimane",
+        "specs": "Specifiche del prodotto",
+        "shipping_returns": "Spedizione e resi",
+        "global_shipping": "Spedizione globale",
+        "global_shipping_desc": "Spedizione tracciata via EMS/DHL/FedEx.",
+        "quality_guarantee": "Garanzia di qualità",
+        "quality_guarantee_desc": "Ispezionato due volte prima della spedizione."
+    },
+    "footer": {
+        "description": "Mobili di lusso e decorazioni per la casa moderna.",
+        "shop": "Negozio",
+        "support": "Supporto",
+        "important": "Info importanti",
+        "shipping_delivery": "Spedizione e consegna",
+        "shipping_note": "※ Spediamo direttamente dall'estero. Si prega di attendere 2-4 settimane per la consegna.",
+        "rights_reserved": "Tutti i diritti riservati.",
+        "designed_with": "Designed with React Bits"
+    }
+}

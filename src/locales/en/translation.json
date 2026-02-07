@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "Home",
+        "shop": "Shop",
+        "collections": "Collections",
+        "about": "About"
+    },
+    "hero": {
+        "est": "Est. 2026",
+        "title_line1": "ELEVATE YOUR",
+        "title_line2": "LIVING SPACE",
+        "subtitle": "Curated collection of high-end furniture designed for the modern connoisseur. Direct from artisans to your doorstep.",
+        "cta": "Explore Collection"
+    },
+    "product": {
+        "view_details": "View Details",
+        "delivery_time": "Delivery: 2-4 Weeks",
+        "add_to_cart": "Add to Cart",
+        "made_to_order": "Made-to-Order Process",
+        "made_to_order_desc": "This item is crafted/sourced upon order.",
+        "standard_delivery": "Standard Delivery: 2-4 Weeks",
+        "specs": "Product Specifications",
+        "shipping_returns": "Shipping & Returns",
+        "global_shipping": "Global Shipping",
+        "global_shipping_desc": "Tracked delivery via EMS/DHL/FedEx. Updates provided at each stage.",
+        "quality_guarantee": "Quality Guarantee",
+        "quality_guarantee_desc": "Inspected twice before shipment. Returns accepted for defects within 7 days of arrival."
+    },
+    "footer": {
+        "description": "Curated luxury furniture and decor for the modern home. Elevating everyday living through timeless design.",
+        "shop": "Shop",
+        "support": "Support",
+        "important": "Important Info",
+        "shipping_delivery": "Shipping & Delivery",
+        "shipping_note": "※ We ship directly from overseas. Please allow 2-4 weeks for delivery.",
+        "rights_reserved": "All rights reserved.",
+        "designed_with": "Designed with React Bits"
+    }
+}

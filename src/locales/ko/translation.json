@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "홈",
+        "shop": "쇼핑",
+        "collections": "컬렉션",
+        "about": "소개"
+    },
+    "hero": {
+        "est": "Est. 2026",
+        "title_line1": "ELEVATE YOUR",
+        "title_line2": "LIVING SPACE",
+        "subtitle": "현대적 감각을 위한 엄선된 럭셔리 가구 컬렉션. 장인 정신이 깃든 제품을 당신의 공간으로.",
+        "cta": "컬렉션 보기"
+    },
+    "product": {
+        "view_details": "상세 보기",
+        "delivery_time": "배송: 2-4주",
+        "add_to_cart": "장바구니 담기",
+        "made_to_order": "주문 제작 프로세스",
+        "made_to_order_desc": "이 제품은 주문 후 제작/소싱됩니다.",
+        "standard_delivery": "배송 기간: 2-4주 소요",
+        "specs": "제품 사양",
+        "shipping_returns": "배송 및 반품",
+        "global_shipping": "글로벌 배송",
+        "global_shipping_desc": "EMS/DHL/FedEx를 통한 추적 가능한 배송.",
+        "quality_guarantee": "품질 보증",
+        "quality_guarantee_desc": "출고 전 이중 검수. 도착 후 7일 이내 결함 발생 시 반품 가능."
+    },
+    "footer": {
+        "description": "모던 홈을 위한 럭셔리 가구 및 데코. 시대를 초월한 디자인으로 일상을 품격 있게.",
+        "shop": "쇼핑",
+        "support": "고객 지원",
+        "important": "중요 정보",
+        "shipping_delivery": "배송 안내",
+        "shipping_note": "※ 해외 직배송 상품으로 배송까지 2-4주 소요됩니다.",
+        "rights_reserved": "All rights reserved.",
+        "designed_with": "Designed with React Bits"
+    }
+}

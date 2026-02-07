@@ -1,0 +1,39 @@
+{
+    "header": {
+        "home": "Accueil",
+        "shop": "Boutique",
+        "collections": "Collections",
+        "about": "À propos"
+    },
+    "hero": {
+        "est": "Est. 2026",
+        "title_line1": "ELEVATE YOUR",
+        "title_line2": "LIVING SPACE",
+        "subtitle": "Collection de meubles haut de gamme pour le connaisseur moderne. Directement des artisans à votre porte.",
+        "cta": "Découvrir la collection"
+    },
+    "product": {
+        "view_details": "Voir les détails",
+        "delivery_time": "Livraison : 2-4 semaines",
+        "add_to_cart": "Ajouter au panier",
+        "made_to_order": "Processus de fabrication",
+        "made_to_order_desc": "Cet article est fabriqué/approvisionné sur commande.",
+        "standard_delivery": "Livraison standard : 2-4 semaines",
+        "specs": "Spécifications du produit",
+        "shipping_returns": "Livraison et retours",
+        "global_shipping": "Livraison mondiale",
+        "global_shipping_desc": "Livraison suivie via EMS/DHL/FedEx.",
+        "quality_guarantee": "Garantie qualité",
+        "quality_guarantee_desc": "Inspecté deux fois avant expédition."
+    },
+    "footer": {
+        "description": "Meubles et décoration de luxe pour la maison moderne.",
+        "shop": "Boutique",
+        "support": "Support",
+        "important": "Infos importantes",
+        "shipping_delivery": "Expédition et livraison",
+        "shipping_note": "※ Nous expédions directement de l'étranger. Veuillez prévoir 2 à 4 semaines pour la livraison.",
+        "rights_reserved": "Tous droits réservés.",
+        "designed_with": "Designed with React Bits"
+    }
+}
