@@ -44,7 +44,7 @@ export const Header = () => {
                             VogueLITZ.
                         </Link>
 
-                        <nav className="hidden md:flex space-x-8 items-center">
+                        <nav className="hidden lg:flex space-x-8 items-center">
                             {navItems.map((item) => (
                                 <Link
                                     key={item.key}
@@ -57,7 +57,7 @@ export const Header = () => {
                         </nav>
 
                         <div className="flex items-center space-x-6">
-                            <div className="hidden md:block">
+                            <div className="hidden lg:block">
                                 <LanguageSwitcher />
                             </div>
 
@@ -74,7 +74,7 @@ export const Header = () => {
                             </button>
 
                             <button
-                                className="md:hidden p-2"
+                                className="lg:hidden p-2"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             >
                                 {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -90,7 +90,7 @@ export const Header = () => {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="md:hidden bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800 pointer-events-auto"
+                        className="lg:hidden bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800 pointer-events-auto"
                     >
                         <nav className="flex flex-col p-6 space-y-4">
                             {navItems.map((item) => (
