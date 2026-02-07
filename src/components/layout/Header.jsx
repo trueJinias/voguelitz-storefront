@@ -120,7 +120,7 @@ export const Header = () => {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="lg:hidden bg-white dark:bg-black border-t border-gray-100 dark:border-gray-800 pointer-events-auto absolute top-full left-0 right-0"
+                        className="lg:hidden bg-black border-t border-gray-800 pointer-events-auto absolute top-full left-0 right-0"
                     >
                         <nav className="flex flex-col p-6 space-y-4">
                             {navItems.map((item) => (
@@ -133,7 +133,7 @@ export const Header = () => {
                                     {item.label}
                                 </Link>
                             ))}
-                            <div className="pt-4 mt-4 border-t border-gray-100 dark:border-gray-800">
+                            <div className="pt-4 mt-4 border-t border-gray-800">
                                 <LanguageSwitcher />
                             </div>
                         </nav>

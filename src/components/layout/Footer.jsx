@@ -6,7 +6,7 @@ export const Footer = () => {
     const { t } = useTranslation();
 
     return (
-        <footer className="bg-gray-50 dark:bg-zinc-900 pt-20 pb-10 mt-20">
+        <footer className="bg-zinc-900 pt-20 pb-10 mt-20">
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="space-y-4">
@@ -49,7 +49,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-gray-200 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-secondary">
+                <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-text-secondary">
                     <p>&copy; {new Date().getFullYear()} VogueLITZ. {t('footer.rights_reserved')}</p>
                     <p className="opacity-50 hover:opacity-100 transition-opacity" title="Build: v1.1.0 (MCM)">v1.1.0 • {t('footer.designed_with')}</p>
                 </div>
