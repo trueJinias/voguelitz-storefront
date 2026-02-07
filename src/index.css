@@ -4,16 +4,32 @@
 @theme {
   --color-gold-500: #d4af37;
   --color-gold-600: #c5a028;
+
+  /* New Elegant Palette */
+  --color-blush-pink: #FADADD;
+  --color-rose-gold: #B66E79;
+  --color-muted-copper: #8C4E4F;
+  --color-dark-mahogany: #3B1F1B;
+
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 }
 
 
 :root {
-  --bg-primary: #ffffff;
-  --text-primary: #1a1a1a;
-  --text-secondary: #666666;
-  --accent-gold: #d4af37;
+  /* Mapped to Elegant Palette */
+  --bg-primary: #fffdfd;
+  /* Slightly warm white */
+  --text-primary: #3B1F1B;
+  /* Dark Mahogany */
+  --text-secondary: #8C4E4F;
+  /* Muted Copper for secondary text */
+  --accent-gold: #B66E79;
+  /* Rose Gold replacing the old Gold */
+
+  /* Additional Contextual Colors */
+  --bg-secondary: #FFF0F5;
+  /* Very light flash of pink */
 
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
@@ -27,9 +43,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-primary: #0a0a0a;
-    --text-primary: #f0f0f0;
-    --text-secondary: #a0a0a0;
+    --bg-primary: #3B1F1B;
+    /* Dark Mahogany as background */
+    --text-primary: #FADADD;
+    /* Blush Pink as text */
+    --text-secondary: #d1b1b1;
+    --accent-gold: #B66E79;
+    /* Rose Gold pops on dark */
   }
 }
 
