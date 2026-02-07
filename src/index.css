@@ -33,11 +33,15 @@
   }
 }
 
-body {
+body,
+#root {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
   transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  /* Ensure root behaves as a flex container cause App often assumes it */
+  flex-direction: column;
 }
 
 h1,
