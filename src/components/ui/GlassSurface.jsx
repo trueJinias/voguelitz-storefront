@@ -1,10 +1,12 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export const GlassSurface = ({
     children,
     className = "",
     intensity = "md", // sm, md, lg
-    border = true
+    border = true,
+    ...props // Pass through motion props
 }) => {
     // Using explicit style mapping for better control over the "glass" look
     const styles = {
@@ -13,12 +15,8 @@ export const GlassSurface = ({
         lg: { backdropFilter: 'blur(24px)', background: 'rgba(255, 255, 255, 0.7)' },
     };
 
-    const darkStyles = {
-        background: 'rgba(0, 0, 0, 0.4)'
-    };
-
     return (
-        <div
+        <motion.div
             className={`
         relative
         ${border ? 'border border-white/20 dark:border-white/10' : ''}
@@ -27,10 +25,8 @@ export const GlassSurface = ({
       `}
             style={{
                 ...styles[intensity],
-                // Merging simple dark mode check logic (in real app, use CSS variables or classes)
-                // For simplicity here, relying on Tailwind's dark modifier for background overrides if needed,
-                // but explicit style is safer for the blur.
             }}
+            {...props}
         >
             <div className="absolute inset-0 dark:bg-black/40 pointer-events-none" style={{ borderRadius: 'inherit' }} />
 
@@ -43,6 +39,6 @@ export const GlassSurface = ({
             <div className="relative z-10 w-full h-full text-foreground">
                 {children}
             </div>
-        </div>
+        </motion.div>
     );
 };

@@ -5,11 +5,19 @@
   --color-gold-500: #d4af37;
   --color-gold-600: #c5a028;
 
-  /* New Elegant Palette */
-  --color-blush-pink: #FADADD;
-  --color-rose-gold: #B66E79;
-  --color-muted-copper: #8C4E4F;
-  --color-dark-mahogany: #3B1F1B;
+  /* Mid-Century Modern Palette */
+  --color-mcm-cream: #F5F5DC;
+  /* Beige/Cream background */
+  --color-mcm-teak: #8D5524;
+  /* Wood tone accent */
+  --color-mcm-olive: #556B2F;
+  /* Muted green accent */
+  --color-mcm-mustard: #DAA520;
+  /* Gold/Mustard accent */
+  --color-mcm-walnut: #3E2723;
+  /* Dark wood text */
+  --color-mcm-stone: #EBE5CE;
+  /* Warm grey/stone secondary bg */
 
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
@@ -17,19 +25,19 @@
 
 
 :root {
-  /* Mapped to Elegant Palette */
-  --bg-primary: #fffdfd;
-  /* Slightly warm white */
-  --text-primary: #3B1F1B;
-  /* Dark Mahogany */
-  --text-secondary: #8C4E4F;
-  /* Muted Copper for secondary text */
-  --accent-gold: #B66E79;
-  /* Rose Gold replacing the old Gold */
+  /* Mapped to Mid-Century Modern Palette */
+  --bg-primary: #F9F7F2;
+  /* Warm off-white/cream instead of stark white */
+  --text-primary: #3E2723;
+  /* Dark Walnut for softer contrast than black */
+  --text-secondary: #5D4037;
+  /* Lighter wood tone */
+  --accent-gold: #8D5524;
+  /* Teak/Wood tone replaces gold */
 
   /* Additional Contextual Colors */
-  --bg-secondary: #FFF0F5;
-  /* Very light flash of pink */
+  --bg-secondary: #EBE5CE;
+  /* Warm Stone for sections */
 
   font-family: var(--font-sans);
   background-color: var(--bg-primary);
@@ -43,13 +51,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg-primary: #3B1F1B;
-    /* Dark Mahogany as background */
-    --text-primary: #FADADD;
-    /* Blush Pink as text */
-    --text-secondary: #d1b1b1;
-    --accent-gold: #B66E79;
-    /* Rose Gold pops on dark */
+    --bg-primary: #2C241B;
+    /* Very dark wood background */
+    --text-primary: #F5F5DC;
+    /* Cream text */
+    --text-secondary: #BCAAA4;
+    --accent-gold: #DAA520;
+    /* Mustard pop on dark */
   }
 }
 
