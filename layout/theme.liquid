@@ -23,9 +23,21 @@
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
     <!-- React App Assets -->
     <script type="module" crossorigin src="{{ 'main.js' | asset_url }}?v={{ "now" | date: "%N" }}"></script>
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}?v={{ "now" | date: "%N" }}">
+    
+    <style>
+      /* Critical CSS Fallbck */
+      body {
+        background-color: #F9F7F2; /* MCM Cream */
+        color: #3E2723; /* Dark Walnut */
+      }
+    </style>
   </head>
 
   <body class="gradient">
