@@ -165,12 +165,7 @@ export const ProductDetail = () => {
                                 </div>
                             </motion.div>
 
-                            import {useCart} from '../context/CartContext';
 
-                            // ... (in component)
-                            const {addToCart} = useCart();
-
-                            // ...
 
                             <div className="flex space-x-4 mb-12">
                                 <MagneticButton
