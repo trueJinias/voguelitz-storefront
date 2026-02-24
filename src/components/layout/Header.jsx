@@ -38,14 +38,14 @@ export const Header = () => {
                 animate={isScrolled ? 'scrolled' : 'top'}
                 variants={{
                     top: {
-                        width: '100%',
-                        borderRadius: '0px',
+                        width: '90%',
+                        borderRadius: '9999px',
                         y: 0,
-                        marginTop: 0,
-                        paddingTop: '1.5rem',
-                        paddingBottom: '1.5rem',
-                        backgroundColor: 'rgba(255, 255, 255, 0)',
-                        backdropFilter: 'blur(0px)',
+                        marginTop: 24,
+                        paddingTop: '0.75rem',
+                        paddingBottom: '0.75rem',
+                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                        backdropFilter: 'blur(8px)',
                     },
                     scrolled: {
                         width: '90%',
@@ -66,8 +66,8 @@ export const Header = () => {
                     mass: 1
                 }}
                 style={{
-                    width: isScrolled ? 'var(--header-width-scrolled, 90%)' : '100%',
-                    maxWidth: isScrolled ? '64rem' : '100%',
+                    width: '90%', // Always use 90%
+                    maxWidth: '64rem', // Always use max-width
                 }}
             >
                 <div className="container mx-auto px-6 flex justify-between items-center h-full">
