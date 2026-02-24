@@ -48,11 +48,11 @@ export const Home = () => {
                 <section className="relative h-screen flex items-center justify-center overflow-hidden">
                     <div className="absolute inset-0 z-0">
                         {/* Background Image / Video would go here */}
-                        <div className="absolute inset-0 bg-stone-900" />
+                        <div className="absolute inset-0 bg-zinc-800" />
                         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop')] opacity-10 bg-cover bg-center" />
 
                         {/* Gradual Blur on the bottom of hero image to blend with content */}
-                        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent z-10" />
+                        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-zinc-800 to-transparent z-10" />
                     </div>
 
                     <div className="container mx-auto px-6 relative z-10 text-center">
@@ -104,7 +104,7 @@ export const Home = () => {
                 </section>
 
                 {/* Product Grid Section */}
-                <section className="py-24 bg-black">
+                <section className="py-24 bg-zinc-800">
                     <div className="container mx-auto px-6">
                         <div className="flex justify-between items-end mb-16">
                             <div>
@@ -131,7 +131,7 @@ export const Home = () => {
                 </section>
 
                 {/* Feature/Shipping Info Section */}
-                <section className="py-24 bg-black">
+                <section className="py-24 bg-zinc-800">
                     <div className="container mx-auto px-6">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
                             <div className="p-6">

@@ -26,8 +26,8 @@
 
 :root {
   /* Enforce Dark Mid-Century Modern Palette as Default */
-  --bg-primary: #2C241B;
-  /* Very dark wood background */
+  --bg-primary: #27272a;
+  /* Dark Gray (Zinc 800) background */
   --text-primary: #F5F5DC;
   /* Cream-colored text */
   --text-secondary: #BCAAA4;
